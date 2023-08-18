@@ -12,7 +12,7 @@ func handleError(err error) {
 }
 func main() {
 	// yourBucketName填写存储空间名称。
-	bucketName := "sidade"
+	bucketName := "sixxxde"
 	// yourObjectName填写Object完整路径，完整路径不包含Bucket名称。
 	objectName := "/video/79059953_p0.png"
 	// yourLocalFileName填写本地文件的完整路径。
@@ -22,7 +22,7 @@ func main() {
 
 	// 创建OSSClient实例。
 	// yourEndpoint填写Bucket对应的Endpoint，以华东1（杭州）为例，填写为https://oss-cn-hangzhou.aliyuncs.com。其它Region请按实际情况填写。
-	client, err := oss.New("http://oss-cn-beijing.aliyuncs.com", "LTAI5tLFqJRbUXgWLCB5uBX2", "XD0jzP0elGVOLMaspX1uYpwwfkgapf")
+	client, err := oss.New("http://oss-cn-beijing.aliyuncs.com", "LTAI5tLFxxxxxxxB5uBX2", "XD0jzP0elGVOLMxxxxxxxgapf")
 	if err != nil {
 		fmt.Println("Error:", err)
 		os.Exit(-1)
@@ -52,7 +52,7 @@ func main() {
 
 	// 创建OSSClient实例。
 	// yourEndpoint填写Bucket对应的Endpoint，以华东1（杭州）为例，填写为https://oss-cn-hangzhou.aliyuncs.com。其它Region请按实际情况填写。
-	client, err := oss.New("https://oss-cn-beijing.aliyuncs.com", "LTAI5t65mcm5fQKtBKxjuVbs", "tBd0rIMw0Xnqp7lmf85b4jGEOkT0B6")
+	client, err := oss.New("https://oss-cn-beijing.aliyuncs.com", "LTAI5xxxxxxxxxxjuVxxxs", "tBd0rIMwxxxxxxxxxEOkTxxx")
 	if err != nil {
 		fmt.Println("Error:", err)
 		os.Exit(-1)
