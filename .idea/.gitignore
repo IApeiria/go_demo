@@ -1,0 +1,24 @@
+# 默认忽略的文件
+/shelf/
+/workspace.xml
+# 基于编辑器的 HTTP 客户端请求
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# 忽略图片文件
+*.jpg
+*.png
+*.gif
+
+# 忽略视频文件
+*.mp4
+*.mov
+
+# 忽略编译生成的文件
+bin/
+*.o
+*.a
+
+# 忽略日志文件
+*.log
